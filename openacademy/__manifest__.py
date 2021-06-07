@@ -2,15 +2,17 @@
     'name': "Open Academy",
     'version': '1.0',
     'depends': ['base'],
-    'author': "Author Name",
+    'author': "Kevin Flores",
     'category': 'Category',
     'description': """
+        Industria del Software IS-902 IIPAC
+        Cuenta 20161004584
+        
         Open Academy module for managing trainings:
             - training courses
             - training sessions
             - attendees registration
     """,
-    'autor': 'Kevin Flores',
     # data files always loaded at installation
     'data': [
         'views.xml',
