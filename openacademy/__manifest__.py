@@ -15,7 +15,8 @@
     """,
     # data files always loaded at installation
     'data': [
-        'views.xml',
+        'security/ir.model.access.csv',
+        'views/openacademy.xml',
     ],
     # data files containing optionally loaded demonstration data
     'demo': [
