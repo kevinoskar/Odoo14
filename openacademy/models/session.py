@@ -13,3 +13,4 @@ class Session(models.Model):
     instructor_id = fields.Many2one('res.partner', string = 'instructor')
     course_id = fields.Many2one('openacademy.course',
         ondelete ='cascade', string = 'Course', requiere = True)
+    attendee_ids = fields.Many2many('res.partner', string = 'Attendees')
