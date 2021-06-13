@@ -18,8 +18,8 @@
         'security/ir.model.access.csv',
         'views/openacademy.xml',
         'views/course.xml',
-        'views/sessions.xml'
-        
+        'views/sessions.xml',
+        'views/partner.xml'
     ],
     # data files containing optionally loaded demonstration data
     'demo': [
